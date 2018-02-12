@@ -43,4 +43,12 @@ public class LongestPalindromicSubstring {
             return s.substring(i - index + 1, j + index);
         }
     }
+
+    public static void main(String[] args) {
+        LongestPalindromicSubstring obj = new LongestPalindromicSubstring();
+        System.out.println(obj.longestPalindrome(""));
+        System.out.println(obj.longestPalindrome(null));
+        System.out.println(obj.longestPalindrome("abab"));
+        System.out.println(obj.longestPalindrome("bb"));
+    }
 }
