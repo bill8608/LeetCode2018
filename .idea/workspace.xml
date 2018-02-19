@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="" />
+    <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/String/production/String/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.class" afterPath="$PROJECT_DIR$/String/production/String/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.class" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" afterPath="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LongestWordInDictionary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/longestWordInDictionary/LongestWordInDictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/LRUCache/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,14 +89,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetterCombinationsOfaPhoneNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LetterCombinationsOfaPhoneNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#258#0" expanded="true" />
+                <element signature="e#254#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDuplicateFileInSystem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,6 +203,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Heap/Heap.java" />
         <option value="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java" />
       </list>
     </option>
   </component>
@@ -325,13 +330,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetterCombinationsOfaPhoneNumber">
+  <component name="RunManager" selected="Application.FindDuplicateFileInSystem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="FindDuplicateFileInSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="findDuplicateFileInSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="findDuplicateFileInSystem.FindDuplicateFileInSystem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="String" />
+      <envs />
     </configuration>
     <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -423,25 +447,6 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="NumOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="numOfIslands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="numOfIslands.NumOfIslands" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="String" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -518,19 +523,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NumOfIslands" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JumpGame" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Heap" />
-      <item index="5" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JumpGame" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Heap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Heap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JumpGame" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NumOfIslands" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Heap" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JumpGame" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +558,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28679000" />
+    <option name="totallyTimeSpent" value="31148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-158" width="2560" height="1440" extended-state="0" />
@@ -568,7 +573,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21151079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21151079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36834532" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -611,8 +616,40 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
+          <line>8</line>
+          <properties class="findDuplicateFileInSystem.FindDuplicateFileInSystem" method="findDuplicate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -756,7 +793,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,11 +907,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#241#258#0" expanded="true" />
+            <element signature="e#254#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LetterCombinationsOfaPhoneNumber {
-    private Map<Integer, String> map = new HashMap<Integer, String>();
+    private static final Map<Integer, String> map = new HashMap<Integer, String>();
     public List<String> letterCombinations(String digits) {
         map.put(0, "");
         map.put(1, "");
