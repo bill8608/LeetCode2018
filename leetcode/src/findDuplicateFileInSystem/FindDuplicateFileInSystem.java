@@ -37,24 +37,20 @@ public class FindDuplicateFileInSystem {
     public static void main(String[] args) {
         FindDuplicateFileInSystem obj = new FindDuplicateFileInSystem();
         String[] paths = new String[]{"root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"};
-        List<List<String>> res = obj.findDuplicate(paths);
-        for (List<String> list : res) {
-            System.out.println("[");
-            for (String str : list) {
-                System.out.println(str);
-            }
-            System.out.println("}");
-        }
-
-        System.out.println("\nThe second case");
         String[] paths2 = new String[]{"root/a 1.txt(abcd)", "root/c/d 4.txt(efgh)"};
-        res = obj.findDuplicate(paths2);
-        for (List<String> list : res) {
-            System.out.println("[");
-            for (String str : list) {
-                System.out.println(str);
+
+        List<List<String>> res;
+        int count = 1;
+        for (String[] path : new String[][]{paths, paths2}) {
+            System.out.println(String.format("\nCase %s:", count));
+            res = obj.findDuplicate(path);
+            for (List<String> list : res) {
+                System.out.println("[");
+                for (String str : list) {
+                    System.out.println(str);
+                }
+                System.out.println("}");
             }
-            System.out.println("}");
         }
     }
 }

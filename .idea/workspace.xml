@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/String/production/String/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.class" afterPath="$PROJECT_DIR$/String/production/String/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.class" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" afterPath="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" />
+      <change beforePath="$PROJECT_DIR$/String/production/String/findDuplicateFileInSystem/FindDuplicateFileInSystem.class" afterPath="$PROJECT_DIR$/String/production/String/findDuplicateFileInSystem/FindDuplicateFileInSystem.class" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java" afterPath="$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,8 +105,8 @@
       <file leaf-file-name="FindDuplicateFileInSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="810">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -558,7 +558,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31148000" />
+    <option name="totallyTimeSpent" value="31817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-158" width="2560" height="1440" extended-state="0" />
@@ -630,7 +630,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java</url>
-          <line>39</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -918,8 +918,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="810">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
