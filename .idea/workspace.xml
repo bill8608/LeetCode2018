@@ -99,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DailyTemperatures.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DailyTemperatures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/dailyTemperatures/DailyTemperatures.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -109,14 +109,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDuplicateFileInSystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java">
+      <file leaf-file-name="PartitionEqualSubsetSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/partitionEqualSubsetSum/PartitionEqualSubsetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="63" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,6 +192,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/leetcode/src/wildcardMatching/WildcardMatching.java" />
         <option value="$PROJECT_DIR$/leetcode/src/dailyTemperatures/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/partitionEqualSubsetSum/PartitionEqualSubsetSum.java" />
       </list>
     </option>
   </component>
@@ -355,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DailyTemperatures">
+  <component name="RunManager" selected="Application.PartitionEqualSubsetSum">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -382,17 +381,12 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="isSubsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="isSubsequence.IsSubsequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -401,12 +395,17 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="PartitionEqualSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="partitionEqualSubsetSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="partitionEqualSubsetSum.PartitionEqualSubsetSum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -548,19 +547,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IsSubsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WildcardMatching" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WildcardMatching" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WildcardMatching" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WildcardMatching" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -579,12 +578,12 @@
       <updated>1518373010782</updated>
       <workItem from="1518373013134" duration="754000" />
       <workItem from="1518378827402" duration="1306000" />
-      <workItem from="1519089949011" duration="9086000" />
+      <workItem from="1519089949011" duration="10659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47499000" />
+    <option name="totallyTimeSpent" value="49072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-135" width="2560" height="1417" extended-state="0" />
@@ -598,7 +597,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38066915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -672,16 +671,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/src/longestWordInDictionary/LongestWordInDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/isSubsequence/IsSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -706,8 +695,8 @@
         <state relative-caret-position="285">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#271#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#254#271#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,7 +706,7 @@
         <state relative-caret-position="810">
           <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,8 +953,8 @@
         <state relative-caret-position="285">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#271#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#254#271#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -975,7 +964,7 @@
         <state relative-caret-position="810">
           <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1055,6 +1044,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/partitionEqualSubsetSum/PartitionEqualSubsetSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="63" selection-end-column="7" />
           <folding />
         </state>
       </provider>
