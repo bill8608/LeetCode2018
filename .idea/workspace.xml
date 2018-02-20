@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerializeAndDeserializeBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SerializeAndDeserializeBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="82" selection-end-column="39" />
+            <state relative-caret-position="998">
+              <caret line="68" column="88" lean-forward="true" selection-start-line="68" selection-start-column="88" selection-end-line="68" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -69,15 +69,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/Heap/Heap.java">
+      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#2603#2611#0" expanded="true" />
-                <element signature="e#2830#2839#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularExpressionMatching.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,16 +123,6 @@
                 <element signature="e#19296#19297#0" expanded="true" />
                 <element signature="e#19379#19380#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3195">
-              <caret line="239" column="9" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -200,6 +197,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/jumpGameII/JumpGameII.java" />
         <option value="$PROJECT_DIR$/leetcode/src/isSubsequence/IsSubsequence.java" />
         <option value="$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java" />
       </list>
     </option>
   </component>
@@ -302,6 +300,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LRUCache" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mergeKSortedLists" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -340,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
+  <component name="RunManager" selected="Application.RegularExpressionMatching">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -405,17 +410,12 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="LetterCombinationsOfaPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="letterCombinationsOfaPhoneNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="letterCombinationsOfaPhoneNumber.LetterCombinationsOfaPhoneNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -424,12 +424,17 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="regularExpressionMatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="regularExpressionMatching.RegularExpressionMatching" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -533,19 +538,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JumpGameII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IsSubsequence" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JumpGameII" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IsSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JumpGameII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LetterCombinationsOfaPhoneNumber" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RegularExpressionMatching" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IsSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JumpGameII" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FindDuplicateFileInSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -564,12 +569,12 @@
       <updated>1518373010782</updated>
       <workItem from="1518373013134" duration="754000" />
       <workItem from="1518378827402" duration="1306000" />
-      <workItem from="1519089949011" duration="1620000" />
+      <workItem from="1519089949011" duration="5200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40033000" />
+    <option name="totallyTimeSpent" value="43613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-158" width="2560" height="1440" extended-state="0" />
@@ -583,7 +588,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21151079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21151079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36834532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -696,8 +701,8 @@
         <state relative-caret-position="345">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#2603#2611#0" expanded="true" />
-            <element signature="e#2830#2839#0" expanded="true" />
+            <element signature="e#2603#2611#0" expanded="false" />
+            <element signature="e#2830#2839#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,17 +924,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="585" column="17" lean-forward="false" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="17" />
+          <folding>
+            <element signature="e#5256#5257#0" expanded="false" />
+            <element signature="e#5314#5315#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -938,8 +940,8 @@
         <state relative-caret-position="345">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#2603#2611#0" expanded="true" />
-            <element signature="e#2830#2839#0" expanded="true" />
+            <element signature="e#2603#2611#0" expanded="false" />
+            <element signature="e#2830#2839#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1021,13 +1023,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="82" selection-end-column="39" />
+        <state relative-caret-position="998">
+          <caret line="68" column="88" lean-forward="true" selection-start-line="68" selection-start-column="88" selection-end-line="68" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
