@@ -1,4 +1,4 @@
-package binaryTreeRightSideView;
+package binaryTreeView;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

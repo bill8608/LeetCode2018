@@ -1,11 +1,9 @@
-package binaryTreeTopView;
+package binaryTreeView;
 
 import utility.TreeNode;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
-import static java.util.Map.Entry.comparingByKey;
 
 public class BinaryTreeTopView {
     public class QItem {
