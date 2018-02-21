@@ -1,15 +1,9 @@
 package mergeKSortedLists;
 
 import java.util.PriorityQueue;
+import utility.ListNode;
 
 public class MergeKSortedLists {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
