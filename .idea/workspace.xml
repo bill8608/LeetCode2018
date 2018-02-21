@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java" afterPath="$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegularExpressionMatching.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,8 +67,8 @@
       <file leaf-file-name="SubsetOfAnotherTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="555">
+              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -93,11 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="43" selection-end-column="15" />
+            <state relative-caret-position="555">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="856">
+              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,6 +202,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java" />
         <option value="$PROJECT_DIR$/leetcode/src/minimumWindowSubsequence/MinimumWindowSubsequence.java" />
         <option value="$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -208,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2560" />
     <option name="y" value="-135" />
     <option name="width" value="2560" />
@@ -265,6 +269,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bestTimeToBuyAndSellStockII" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryTreeLevelOrderTraversal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode2018" type="b2602c69:ProjectViewProjectNode" />
@@ -381,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeLevelOrderTraversal">
+  <component name="RunManager" selected="Application.BinaryTreeInorderTraversal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -389,14 +400,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binaryTreeLevelOrderTraversal.*" />
+          <option name="PATTERN" value="binaryTreeInorderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binaryTreeLevelOrderTraversal.BinaryTreeLevelOrderTraversal" />
+      <option name="MAIN_CLASS_NAME" value="binaryTreeInorderTraversal.BinaryTreeInorderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -408,14 +419,14 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dailyTemperatures.*" />
+          <option name="PATTERN" value="binaryTreeLevelOrderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="dailyTemperatures.DailyTemperatures" />
+      <option name="MAIN_CLASS_NAME" value="binaryTreeLevelOrderTraversal.BinaryTreeLevelOrderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -574,19 +585,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SubsetOfAnotherTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinimumWindowSubsequence" />
-      <item index="5" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SubsetOfAnotherTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinimumWindowSubsequence" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinimumWindowSubsequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SubsetOfAnotherTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DailyTemperatures" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MinimumWindowSubsequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SubsetOfAnotherTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PartitionEqualSubsetSum" />
       </list>
     </recent_temporary>
   </component>
@@ -605,15 +616,15 @@
       <updated>1518373010782</updated>
       <workItem from="1518373013134" duration="754000" />
       <workItem from="1518378827402" duration="1306000" />
-      <workItem from="1519089949011" duration="17642000" />
+      <workItem from="1519089949011" duration="19856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56055000" />
+    <option name="totallyTimeSpent" value="58269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="-135" width="2560" height="1417" extended-state="0" />
+    <frame x="-2560" y="-135" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -624,7 +635,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38066915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -698,17 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9270">
-          <caret line="618" column="36" lean-forward="false" selection-start-line="618" selection-start-column="33" selection-end-line="618" selection-end-column="36" />
-          <folding>
-            <element signature="e#19296#19297#0" expanded="false" />
-            <element signature="e#19379#19380#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3195">
@@ -722,9 +722,9 @@
         <state relative-caret-position="1275">
           <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,7 +978,7 @@
         <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,9 +988,9 @@
         <state relative-caret-position="998">
           <caret line="68" column="88" lean-forward="true" selection-start-line="68" selection-start-column="88" selection-end-line="68" selection-end-column="88" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/isSubsequence/IsSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
@@ -1072,8 +1064,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="555">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

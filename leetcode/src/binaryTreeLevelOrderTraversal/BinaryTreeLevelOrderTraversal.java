@@ -8,6 +8,7 @@ import java.util.Queue;
 import utility.TreeNode;
 
 public class BinaryTreeLevelOrderTraversal {
+    // BFS
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
@@ -42,7 +43,7 @@ public class BinaryTreeLevelOrderTraversal {
             if (list.size() != 0) {
                 res.add(list);
             }*/
-
+            }
             res.add(list);
         }
         return res;
