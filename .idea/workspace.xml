@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/src/utility/ListNode.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java" afterPath="$PROJECT_DIR$/leetcode/src/mergeKSortedLists/MergeKSortedLists.java" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/utility/TreeNode.java" afterPath="$PROJECT_DIR$/leetcode/src/utility/TreeNode.java" />
+      <change beforePath="$PROJECT_DIR$/String/production/String/utility/TreeNode.class" afterPath="$PROJECT_DIR$/String/production/String/utility/TreeNode.class" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,18 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,12 +36,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntersectionOfTwoLinkedLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntersectionOfTwoLinkedLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="300">
               <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeRightSideView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeRightSideView/BinaryTreeRightSideView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/String/src/LongestPalindromicSubstring/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/String/src/longestPalindrome/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/String/src/longestPalindrome/Main.java" />
         <option value="$PROJECT_DIR$/leetcode/src/longestPalindrome/Main.java" />
@@ -215,6 +212,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java" />
         <option value="$PROJECT_DIR$/leetcode/src/utility/ListNode.java" />
         <option value="$PROJECT_DIR$/leetcode/src/utility/TreeNode.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/binaryTreeRightSideView/BinaryTreeRightSideView.java" />
       </list>
     </option>
   </component>
@@ -421,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoLinkedLists">
+  <component name="RunManager" selected="Application.BinaryTreeRightSideView">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -437,25 +435,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="binaryTreeInorderTraversal.BinaryTreeInorderTraversal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="String" />
-      <envs />
-    </configuration>
-    <configuration name="BinaryTreeLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="binaryTreeLevelOrderTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="binaryTreeLevelOrderTraversal.BinaryTreeLevelOrderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -494,6 +473,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="binaryTreePreorderTraversal.BinaryTreePreorderTraversal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="String" />
+      <envs />
+    </configuration>
+    <configuration name="BinaryTreeRightSideView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="binaryTreeRightSideView.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="binaryTreeRightSideView.BinaryTreeRightSideView" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -614,19 +612,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BinaryTreePreorderTraversal" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreePostorderTraversal" />
-      <item index="5" class="java.lang.String" itemvalue="Application.IntersectionOfTwoLinkedLists" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreePreorderTraversal" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BinaryTreePostorderTraversal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IntersectionOfTwoLinkedLists" />
+      <item index="5" class="java.lang.String" itemvalue="Application.BinaryTreeRightSideView" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IntersectionOfTwoLinkedLists" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreePostorderTraversal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreePreorderTraversal" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreeLevelOrderTraversal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeRightSideView" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IntersectionOfTwoLinkedLists" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreePostorderTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BinaryTreePreorderTraversal" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreeInorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -645,15 +643,16 @@
       <updated>1518373010782</updated>
       <workItem from="1518373013134" duration="754000" />
       <workItem from="1518378827402" duration="1306000" />
-      <workItem from="1519089949011" duration="24036000" />
+      <workItem from="1519089949011" duration="25222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62449000" />
+    <option name="totallyTimeSpent" value="63635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-135" width="2560" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -663,7 +662,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21040893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21040893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38066915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -743,13 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/String.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/longestPalindrome/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1052,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreePreorderTraversal/BinaryTreePreorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -1124,9 +1108,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/intersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/subsetOfAnotherTree/SubsetOfAnotherTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeRightSideView/BinaryTreeRightSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
