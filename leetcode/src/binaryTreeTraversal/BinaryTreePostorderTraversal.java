@@ -1,4 +1,4 @@
-package binaryTreePreorderTraversal;
+package binaryTreeTraversal;
 
 import utility.TreeNode;
 
@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class BinaryTreePreorderTraversal {
+public class BinaryTreePostorderTraversal {
     // Iterative stack solution
-    public List<Integer> PreorderTraversalStack(TreeNode root) {
+    public List<Integer> PostorderTraversalStack(TreeNode root) {
         List<Integer>  res = new ArrayList<>();
         if (root == null) {
             return res;
@@ -19,18 +19,18 @@ public class BinaryTreePreorderTraversal {
         while(node != null || !stack.isEmpty()) {
             if (node != null) {
                 stack.push(node);
-                res.add(node.val);
-                node = node.left;
+                res.add(0, node.val);
+                node = node.right;
             } else {
                 node = stack.pop();
-                node = node.right;
+                node = node.left;
             }
         }
         return res;
     }
 
     // DFS
-    public List<Integer> PreorderTraversalDFS(TreeNode root) {
+    public List<Integer> PostorderTraversalDFS(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
@@ -42,24 +42,24 @@ public class BinaryTreePreorderTraversal {
         if (root == null) {
             return;
         }
-        res.add(root.val);
         helper(root.left, res);
         helper(root.right, res);
+        res.add(root.val);
     }
 
     // Divide and conquer
-    public List<Integer> PreorderTraversalDivideAndConquer(TreeNode root) {
+    public List<Integer> PostorderTraversalDivideAndConquer(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
 
-        List<Integer> left = PreorderTraversalDivideAndConquer(root.left);
-        List<Integer> right = PreorderTraversalDivideAndConquer(root.right);
+        List<Integer> left = PostorderTraversalDivideAndConquer(root.left);
+        List<Integer> right = PostorderTraversalDivideAndConquer(root.right);
 
-        res.add(root.val);
         res.addAll(left);
         res.addAll(right);
+        res.add(root.val);
 
         return res;
     }
@@ -71,20 +71,20 @@ public class BinaryTreePreorderTraversal {
         root.right.left = new TreeNode(1);
         root.right.right = new TreeNode(2);
 
-        binaryTreePreorderTraversal.BinaryTreePreorderTraversal obj = new binaryTreePreorderTraversal.BinaryTreePreorderTraversal();
+        BinaryTreePostorderTraversal obj = new BinaryTreePostorderTraversal();
 
         // Iterative stack solution
-        List<Integer> res = obj.PreorderTraversalStack(root);
+        List<Integer> res = obj.PostorderTraversalStack(root);
         System.out.println("Iterative stack solution");
         res.stream().forEach(System.out::println);
 
         // DFS
-        res = obj.PreorderTraversalDFS(root);
+        res = obj.PostorderTraversalDFS(root);
         System.out.println("\nDFS solution");
         res.stream().forEach(System.out::println);
 
         // Divide and conquer
-        res = obj.PreorderTraversalDivideAndConquer(root);
+        res = obj.PostorderTraversalDivideAndConquer(root);
         System.out.println("\nDivide and conquer");
         res.stream().forEach(System.out::println);
     }

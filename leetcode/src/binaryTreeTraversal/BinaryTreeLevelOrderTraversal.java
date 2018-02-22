@@ -1,4 +1,4 @@
-package binaryTreeLevelOrderTraversal;
+package binaryTreeTraversal;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -58,7 +58,8 @@ public class BinaryTreeLevelOrderTraversal {
 
         BinaryTreeLevelOrderTraversal obj = new BinaryTreeLevelOrderTraversal();
         List<List<Integer>> res = obj.levelOrder(root);
-        for (List<Integer> list : res) {
+        res.forEach(System.out::println);
+/*        for (List<Integer> list : res) {
             System.out.print("[");
             for (int i = 0; i < list.size(); ++i) {
                 System.out.print(list.get(i));
@@ -67,6 +68,6 @@ public class BinaryTreeLevelOrderTraversal {
                 }
             }
             System.out.print("]\n");
-        }
+        }*/
     }
 }
