@@ -8,6 +8,7 @@ import java.util.Queue;
 import utility.TreeNode;
 
 public class BinaryTreeZigzagLevelOrderTraversal {
+    // BFS
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
@@ -39,6 +40,27 @@ public class BinaryTreeZigzagLevelOrderTraversal {
         return res;
     }
 
+    // DFS
+    public List<List<Integer>> zigzagLevelOrderDFS(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        helper(res, root, 0);
+        return res;
+    }
+    private void helper(List<List<Integer>> res, TreeNode root, int height) {
+        if (root == null) {
+            return;
+        }
+        if (height >= res.size()) {
+            res.add(new ArrayList<>());
+        }
+
+        if ((height & 1) == 1) {
+            res.get(height).add(0, root.val);
+        } else {
+            res.get(height).add(root.val);
+        }
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(3);
@@ -48,6 +70,11 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
         BinaryTreeZigzagLevelOrderTraversal obj = new BinaryTreeZigzagLevelOrderTraversal();
         List<List<Integer>> res = obj.zigzagLevelOrder(root);
+        System.out.println("\nBFS");
+        res.forEach(System.out::println);
+
+        res = obj.zigzagLevelOrder(root);
+        System.out.println("\nDFS");
         res.forEach(System.out::println);
 /*        for (List<Integer> list : res) {
             System.out.print("[");

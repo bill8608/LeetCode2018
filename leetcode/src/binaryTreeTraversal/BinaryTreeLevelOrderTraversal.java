@@ -48,6 +48,24 @@ public class BinaryTreeLevelOrderTraversal {
         }
         return res;
     }
+
+    // DFS
+    public List<List<Integer>> levelOrderDFS(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        helper(res, root, 0);
+        return res;
+    }
+    private void helper(List<List<Integer>> res, TreeNode root, int numOfLevel) {
+        if (root == null) {
+            return;
+        }
+        if (numOfLevel >= res.size()) {
+            res.add(new ArrayList<>());
+        }
+        res.get(numOfLevel).add(root.val);
+        helper(res, root.left, numOfLevel + 1);
+        helper(res, root.right, numOfLevel + 1);
+    }
     
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);
@@ -58,6 +76,11 @@ public class BinaryTreeLevelOrderTraversal {
 
         BinaryTreeLevelOrderTraversal obj = new BinaryTreeLevelOrderTraversal();
         List<List<Integer>> res = obj.levelOrder(root);
+        System.out.println("\nBFS Solution:");
+        res.forEach(System.out::println);
+
+        res = obj.levelOrderDFS(root);
+        System.out.println("\nDFS Solution:");
         res.forEach(System.out::println);
 /*        for (List<Integer> list : res) {
             System.out.print("[");
