@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d9d8989-fb1a-452f-9900-51074aac5a4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/String/production/String/twoSum/TwoSumIVInputIsABST.class" afterPath="$PROJECT_DIR$/String/production/String/twoSum/TwoSumIVInputIsABST.class" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryTreeLeftSideView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeView/BinaryTreeLeftSideView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeTraversal/BinaryTreeLevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,6 +50,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SerializeAndDeserializeBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeAndDeserializeBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TwoSumIIIDataStuctureDesign.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/twoSum/TwoSumIIIDataStuctureDesign.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSumIVInputIsABST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSumIVInputIsABST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/twoSum/TwoSumIVInputIsABST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="344">
+              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,16 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTreePostorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeTraversal/BinaryTreePostorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -152,9 +153,9 @@
       <find>put</find>
       <find>Inorder</find>
       <find>preorder</find>
-      <find>root1</find>
       <find>rightSideView</find>
       <find>WordDistance</find>
+      <find>root1</find>
     </findStrings>
     <replaceStrings>
       <replace>iteration</replace>
@@ -162,9 +163,9 @@
       <replace>Preorder</replace>
       <replace>postorder</replace>
       <replace>topView</replace>
-      <replace>root</replace>
       <replace>leftSideView</replace>
       <replace>ShortestWordDistanceII</replace>
+      <replace>root</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/src/Fabonacci/Recursion.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Fabonacci/Iteration.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Fibonacci/Iteration.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Fibonacci/Recursion.java" />
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java" />
         <option value="$PROJECT_DIR$/leetcode/src/jumpGameII/JumpGameII.java" />
         <option value="$PROJECT_DIR$/leetcode/src/isSubsequence/IsSubsequence.java" />
-        <option value="$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java" />
         <option value="$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/leetcode/src/wildcardMatching/WildcardMatching.java" />
         <option value="$PROJECT_DIR$/leetcode/src/dailyTemperatures/DailyTemperatures.java" />
@@ -229,6 +228,8 @@
         <option value="$PROJECT_DIR$/leetcode/src/shortestWordDistanceII/ShortestWordDistanceII.java" />
         <option value="$PROJECT_DIR$/leetcode/src/twoSum/TwoSumIIIDataStuctureDesign.java" />
         <option value="$PROJECT_DIR$/leetcode/src/twoSum/TwoSumIVInputIsABST.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBST.java" />
       </list>
     </option>
   </component>
@@ -364,6 +365,13 @@
               <item name="LeetCode2018" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serializeAndDeserializeBinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode2018" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="subsetOfAnotherTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -430,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSumIVInputIsABST">
+  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -438,14 +446,28 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BinaryTreeZigzagLevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="String" />
+      <envs />
+    </configuration>
+    <configuration name="SerializeAndDeserializeBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="binaryTreeTraversal.*" />
+          <option name="PATTERN" value="serializeAndDeserializeBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="binaryTreeTraversal.BinaryTreeZigzagLevelOrderTraversal" />
+      <option name="MAIN_CLASS_NAME" value="serializeAndDeserializeBinaryTree.SerializeAndDeserializeBST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -457,12 +479,17 @@
       <module name="String" />
       <envs />
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.MedianOfTwoSortedArrays" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="SerializeAndDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="serializeAndDeserializeBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="serializeAndDeserializeBinaryTree.SerializeAndDeserializeBinaryTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -517,25 +544,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="twoSum.TwoSumIVInputIsABST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="String" />
-      <envs />
-    </configuration>
-    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="shortestWordDistanceII.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="shortestWordDistanceII.WordDistance" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -623,19 +631,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordDistance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ShortestWordDistanceII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TwoSumIIIDataStuctureDesign" />
-      <item index="5" class="java.lang.String" itemvalue="Application.TwoSumIVInputIsABST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ShortestWordDistanceII" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TwoSumIIIDataStuctureDesign" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TwoSumIVInputIsABST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwoSumIVInputIsABST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TwoSumIIIDataStuctureDesign" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ShortestWordDistanceII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WordDistance" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreeZigzagLevelOrderTraversal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBinaryTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SerializeAndDeserializeBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TwoSumIVInputIsABST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TwoSumIIIDataStuctureDesign" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ShortestWordDistanceII" />
       </list>
     </recent_temporary>
   </component>
@@ -654,12 +662,12 @@
       <updated>1518373010782</updated>
       <workItem from="1518373013134" duration="754000" />
       <workItem from="1518378827402" duration="1306000" />
-      <workItem from="1519089949011" duration="37497000" />
+      <workItem from="1519089949011" duration="39437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75910000" />
+    <option name="totallyTimeSpent" value="77850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-158" width="2560" height="1440" extended-state="0" />
@@ -761,13 +769,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/String.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/longestPalindrome/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -968,18 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="68" column="88" lean-forward="true" selection-start-line="68" selection-start-column="88" selection-end-line="68" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#327#328#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/regularExpressionMatching/RegularExpressionMatching.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1075,7 +1064,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,7 +1074,7 @@
         <state relative-caret-position="495">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1190,11 +1179,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/twoSum/TwoSumIVInputIsABST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="344">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/serializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
