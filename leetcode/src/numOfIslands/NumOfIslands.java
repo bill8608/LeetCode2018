@@ -48,5 +48,8 @@ public class NumOfIslands {
         grid = new char [][]{{'1','1','0','0','0'},{'1','1','0','0','0'},{'0','0','1','0','0'},{'0','0','0','1','1'}};
         System.out.println(numOfIslands.numOfIslands(grid) == 3);
 
+        grid = new char [][]{{'1', '0','0','1'},{'0','1','0','1'},{'0','1','0','0'}};
+        System.out.println(numOfIslands.numOfIslands(grid) == 3);
+
     }
 }
