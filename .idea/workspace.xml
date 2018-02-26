@@ -13,28 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaintHouseII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/src/paintHouse/PaintHouseII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinaryTreeUpsideDown.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/binaryTreeUpsideDown/BinaryTreeUpsideDown.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,13 +55,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindLeavesOfBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindLeavesOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/src/findLeavesOfBinaryTree/FindLeavesOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
+            <state relative-caret-position="84">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactorCombinations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/factorCombinations/FactorCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
+              <folding>
+                <element signature="e#15459#15460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/src/jumpGame/JumpGame.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Heap/Heap.java" />
         <option value="$PROJECT_DIR$/leetcode/src/letterCombinationsOfaPhoneNumber/LetterCombinationsOfaPhoneNumber.java" />
         <option value="$PROJECT_DIR$/leetcode/src/findDuplicateFileInSystem/FindDuplicateFileInSystem.java" />
@@ -217,6 +218,7 @@
         <option value="$PROJECT_DIR$/leetcode/src/Stack/MaxStack.java" />
         <option value="$PROJECT_DIR$/leetcode/src/Stack/MinStack.java" />
         <option value="$PROJECT_DIR$/leetcode/src/findLeavesOfBinaryTree/FindLeavesOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/factorCombinations/FactorCombinations.java" />
       </list>
     </option>
   </component>
@@ -453,13 +455,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLeavesOfBinaryTree">
+  <component name="RunManager" selected="Application.FactorCombinations">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="FactorCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="factorCombinations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="factorCombinations.FactorCombinations" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="String" />
+      <envs />
     </configuration>
     <configuration name="FindLeavesOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -521,25 +542,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Stack.MinStack" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="String" />
-      <envs />
-    </configuration>
-    <configuration name="ShortestWordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="shortestWordDistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="shortestWordDistance.ShortestWordDistance" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -646,19 +648,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MedianOfTwoSortedArrays" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ShortestWordDistance" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ShortestWordDistanceIII" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MaxStack" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinStack" />
-      <item index="5" class="java.lang.String" itemvalue="Application.FindLeavesOfBinaryTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ShortestWordDistanceIII" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxStack" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinStack" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FindLeavesOfBinaryTree" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FactorCombinations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindLeavesOfBinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinStack" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MaxStack" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ShortestWordDistanceIII" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ShortestWordDistance" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FactorCombinations" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindLeavesOfBinaryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MinStack" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MaxStack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ShortestWordDistanceIII" />
       </list>
     </recent_temporary>
   </component>
@@ -682,7 +684,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103843000" />
+    <option name="totallyTimeSpent" value="106402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1913" y="26" width="1680" height="971" extended-state="0" />
@@ -864,15 +866,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/src/longestWordInDictionary/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/LRU.java" />
     <entry file="file://$PROJECT_DIR$/leetcode/src/LRUCache/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1172,7 +1165,7 @@
         <state relative-caret-position="960">
           <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1258,8 +1251,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/src/findLeavesOfBinaryTree/FindLeavesOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
+        <state relative-caret-position="84">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="417" column="0" lean-forward="false" selection-start-line="417" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
+          <folding>
+            <element signature="e#15459#15460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/factorCombinations/FactorCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
