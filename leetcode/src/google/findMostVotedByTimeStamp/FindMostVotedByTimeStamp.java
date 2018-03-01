@@ -24,6 +24,13 @@ public class FindMostVotedByTimeStamp {
         }
         String mostVoted = null;
         int numOfVotes = 0;
+        // Not working. only final variables can be use in lambda(final means being able to initialize only once)
+/*        map.forEach((key, value) -> {
+            if (value > numOfVotes) {
+                numOfVotes = value;
+                mostVoted = key;
+            }
+        });*/
         for(Map.Entry<String, Integer> entry : map.entrySet()) {
             if (entry.getValue() > numOfVotes) {
                 numOfVotes = entry.getValue();
@@ -60,9 +67,7 @@ public class FindMostVotedByTimeStamp {
             }
         }
         List<String> res = new ArrayList<>();
-        while (!pq.isEmpty()) {
-            res.add(0, pq.poll().getKey());
-        }
+        pq.forEach(entry -> res.add(0, entry.getKey()));
         return res;
     }
 

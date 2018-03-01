@@ -1,8 +1,9 @@
 package google.majorityElement;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+
+// output all the elements with appearance > floor(N/3)
 
 /*Great algorithm, but need some more explanation on the confusing word 2 “majorities”. They are not necessarily be the 2 most frequent elements after the 1st round. Here is why the poster’s 2 “majorities” algorithm really works:
         consider 3 cases:
@@ -61,14 +62,14 @@ public class MajorityElementII {
 
     public static void main(String[] args) {
         MajorityElementII obj = new MajorityElementII();
-        obj.majorityElement(new int[]{2, 3, 3, 5, 3, 2, 2}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{2, 3, 3, 5, 3, 2, 2}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 2, 2}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 2, 2}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 3, 3}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 3, 3}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{1, 2, 3, 4, 5, 6, 3}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{1, 2, 3, 4, 5, 6, 3}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{}).forEach(System.out::println);
     }
 }

@@ -1,5 +1,7 @@
 package google.majorityElement;
 
+// output all the elements with appearance > floor(N/4)
+
 public class MajorityElement {
     public int majorityElement(int[] nums) {
         int majority = nums[0];

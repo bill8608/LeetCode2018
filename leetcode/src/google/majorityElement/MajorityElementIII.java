@@ -2,7 +2,7 @@ package google.majorityElement;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// output all the elements with appearance > floor(N/4)
 public class MajorityElementIII {
     public List<Integer> majorityElement(int[] nums) {
         int candidate1 = -1;
@@ -63,12 +63,12 @@ public class MajorityElementIII {
 
     public static void main(String[] args) {
         MajorityElementIII obj = new MajorityElementIII();
-        obj.majorityElement(new int[]{1, 3, 3, 4, 4, 2, 2}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{1, 3, 3, 4, 4, 2, 2}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 2, 2}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 2, 2}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 3, 2}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{3, 3, 3, 5, 3, 3, 2}).forEach(System.out::println);
         System.out.println();
-        obj.majorityElement(new int[]{}).stream().forEach(System.out::println);
+        obj.majorityElement(new int[]{}).forEach(System.out::println);
     }
 }
