@@ -1,4 +1,4 @@
-package firstUniqueCharacterInAString;
+package google.firstUniqueCharacterInAString;
 
 public class FirstUniqueCharacterInAString {
     public int firstUniqChar(String s) {
