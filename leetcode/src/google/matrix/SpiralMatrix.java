@@ -2,7 +2,15 @@ package google.matrix;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*1. 给一个2d matrix，顺时针方向从外往里trace一遍里面的element。
+        举个例子. 鐗涗汉浜戦泦,涓€浜╀笁鍒嗗湴
+        1  2   3  4
+        5  6   7  8
+        9 10 11 12. more info on 1point3acres.com
+        那 return的就是
+        1 2 3 4 8 12 11 10 9 5 6 7
+        注意这个matrix不一定是square martirx. 鍥*/
+//http://www.1point3acres.com/bbs/thread-210985-1-1.html
 public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList<>();
