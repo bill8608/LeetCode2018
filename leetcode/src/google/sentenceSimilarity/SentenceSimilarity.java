@@ -2,13 +2,6 @@ package google.sentenceSimilarity;
 
 public class SentenceSimilarity {
     public boolean areSentencesSimilar(String[] words1, String[] words2, String[][] pairs) {
-        if (words1 == null && words2 != null) {
-            return false;
-        } else if (words1 != null && words2 == null) {
-            return false;
-        } else if (words1 == null && words2 == null) {
-            return true;
-        }
         if (words1.length != words2.length) {
             return false;
         }
